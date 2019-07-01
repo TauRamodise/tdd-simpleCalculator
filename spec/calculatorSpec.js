@@ -1,5 +1,5 @@
 
-  describe("addition", function(){
+  describe("addition()", function(){
   it('should add two numbers, should equal  0', function(){
       let add = addition(0, 0);
         expect(add).toBe(0);
@@ -18,7 +18,7 @@
     });
   });
   
-  describe('multiply', function(){
+  describe('multiply()', function(){
     it('should multiply two numbers', function(){
       let sum = multiply(1,1);
         expect(sum).toBe(1)

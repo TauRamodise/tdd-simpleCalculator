@@ -1,6 +1,5 @@
 
-
-function addition() {
+function add() {
    add = 0;
 
    for (let i = 0; i < arguments.length; i++) {
@@ -8,6 +7,8 @@ function addition() {
    }
    return add;
 }
+
+
 
 
 function multiply() {

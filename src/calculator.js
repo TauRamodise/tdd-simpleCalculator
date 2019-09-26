@@ -1,6 +1,6 @@
 
 function add() {
-   add = 0;
+  let add = 0;
 
    for (let i = 0; i < arguments.length; i++) {
       add += arguments[i];
